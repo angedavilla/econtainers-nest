@@ -11,6 +11,7 @@ This project is a starter template for building NestJS applications with MongoDB
    git clone 'https://github.com/angedavilla/econtainers-nest'
 
 cd <project-folder>
+## Npm
 npm install
 npm install --save @nestjs/mongoose mongoose bcrypt
 

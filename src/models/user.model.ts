@@ -1,14 +1,14 @@
 import * as mongoose from 'mongoose';
 
 export const UserSchema = new mongoose.Schema({
-  username: String,
+  name: String,
   email: String,
   password: String,
 });
 
 export interface User extends mongoose.Document {
   id: string;
-  username: string;
+  name: string;
   email: string;
   password: string;
 }

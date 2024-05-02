@@ -13,6 +13,7 @@ This project is a starter template for building NestJS applications with MongoDB
 cd <project-folder>
 ## Npm
 npm install
+
 npm install --save @nestjs/mongoose mongoose bcrypt
 
 ## Configuration
